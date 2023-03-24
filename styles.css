@@ -1,0 +1,80 @@
+
+.books {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgb(196, 206, 216);
+    margin-top: 50px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px;
+    display: flex;
+    
+}
+h1, form, label{
+    display: flex;
+    justify-content: center;
+    
+}
+input, select{
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    width:200px;
+    height: 50px;
+    align-items: center;
+}
+ p{
+margin-left: 50px;
+display: flex;
+flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+}
+.form-heading{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.form-heading> .add-book-button{
+    border-radius: 10px;
+    height:75px;
+    font-size: 50px;
+    padding:10px;
+}
+.form{
+    margin-top: 100px;
+   
+}
+.remove-book-button{
+    height:30px;
+    width: 50px;
+  margin-top: 100px;
+  
+}
+.remove-book-button-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read-status-button{
+    height:50px;
+    border-radius: 10px;
+    margin-top: 85px;
+    
+    
+    margin-right:10px;
+}

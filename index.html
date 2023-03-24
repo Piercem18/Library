@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="form-heading">
+            <button class="add-book-button" onclick="displayTheForm()">Add a new book</button>
+           <div class="form" id="bookForm" style="display: none;">
+
+                <form action="example.com/path" method="post">
+                    <div class="bookInfo">
+                        <div class="Title">
+                            <label for="first_name">Title:</label>
+                            <input type="text" id="Title" name="Title" >
+                    </div>
+                        <div class="Author">
+                            <label for="Author">Author:</label>
+                            <input type="text" id="Author" name="Author" >
+                    </div>
+                    <div class="Pages">
+                        <label for="Pages">Pages:</label>
+                        <input type="text" id="Pages" name="Pages" >
+                </div>
+                <div class="Read">
+                    <label for="Read">Read:</label>
+                    <select Name="Read", id="Read">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                        </select>
+            </div>
+            <div class="buttons">
+                <button class="submit-button">Submit</button>
+                <button class="clear-button" type="reset">Clear</button>
+                </div>
+            </div>
+            
+            </div>
+            
+        </div>
+        </div>
+        <div class="books-heading">
+            <h1>Books in Library</h1>
+        </div>
+        
+        <div class="books"></div>
+    </div>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
